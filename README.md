@@ -27,11 +27,11 @@ pip3 install djangorestframework
    Here, we have created two separate APIs (but output is same) which will show output as json data and serialised json data.</br>
   * Get json data API using HTTP GET method request :</br>
     ```bash
-    curl -X GET -i 'http://127.0.0.1:8000/getjsondata/?start_date=2010-01&end_date=2010-12&location=Wales&metric=Tmax'</br>
+    curl -X GET -i 'http://127.0.0.1:8000/getjsondata/?start_date=2010-01&end_date=2010-12&location=Wales&metric=Tmax'
     ```
   * Get serialised json data API using HTTP GET method request :</br>
     ```bash
-    curl -X GET -i 'http://127.0.0.1:8000/getserialiseddata/?start_date=2010-01&end_date=2010-12&location=Wales&metric=Tmin'</br>
+    curl -X GET -i 'http://127.0.0.1:8000/getserialiseddata/?start_date=2010-01&end_date=2010-12&location=Wales&metric=Tmin'
     ``` 
 4. To test the model, views and management commands :</br>
    ```bash
