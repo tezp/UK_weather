@@ -1,5 +1,5 @@
 # UK_weather
-This is Django REST Api to get UK_weather.
+This is Django app to store and retrieve UK weather data..
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
