@@ -17,8 +17,7 @@ pip3 install djangorestframework
 ```
 ## Running the project: 
 1.  First we need to save the data into database using [Django management command](https://docs.djangoproject.com/en/2.1/howto/custom-management-commands/).</br>
-
-Open the terminal in project repository and type following command with URL (-u for URL).</br>
+ Open the terminal in project repository and type following command with URL (-u for URL).</br>
 ```bash
 python3 manage.py fetch_json_and_save -u https://s3.eu-west-2.amazonaws.com/interview-question-data/metoffice/Tmin-Wales.json
   ```
