@@ -34,8 +34,8 @@ pip3 install djangorestframework
     curl -X GET -i 'http://127.0.0.1:8000/getserialiseddata/?start_date=2010-01&end_date=2010-12&location=Wales&metric=Tmin'
     ``` 
 4. To test the model, views and management commands :</br>
-   ```bash
+ ```bash
     python3 manage.py test
-   ```
+ ```
    
 
